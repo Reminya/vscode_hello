@@ -1,0 +1,22 @@
+{
+  "name": "vs-copolit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "homepage": "https://<your-username>.github.io/<repo-name>",
+  "scripts": {
+    "build": "tsc",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.9.3"
+  }
+}
